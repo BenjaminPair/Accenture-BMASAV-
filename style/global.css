@@ -1,0 +1,26 @@
+body{
+	background-image: url(https://assets.rbl.ms/13328364/980x.jpg)
+}
+
+.form-conatiner{border:0px solid rgb(139, 9, 122);padding:50px 60px;margin-top: 20vh;
+-webkit-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+background-color:#ffff;
+
+}
+
+}
+
+label {
+	color:rgb(0, 0, 0);
+}
+
+h1{
+	font-family: cursive;
+	font-weight: bolder;
+}
+
+.si{
+	
+}
