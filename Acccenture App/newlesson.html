@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css"> 
+<link rel="stylesheet" type="text/css" href="styles/newlesson.css"> 
+<!-- Hamburger Snipit Code -->
+<link rel="stylesheet" type="text/css" href="styles/burger.css">
+<script src="script/burger.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav">
+        <a href="#home" class="active">Eventure</a>
+        <div id="myLinks">
+          <a href="home.html">Home</a>
+          <a href="#Search">Search</a>
+          <a href="viewlesson.html">Lessons Learned</a>
+          <a href="viewevent.html">Events</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+<!--End of Hamburger Snippet -->
+</head>
+<br>
+<body>
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="subject">
+       Title:
+      </label>
+      <input class="form-control" id="subject" name="subject" placeholder="Title:" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="InputLesson">
+       Description:
+      </label>
+      <textarea class="form-control" cols="40" id="InputLesson" name="InputLesson" placeholder="Input Lesson..." rows="10"></textarea>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="subject1">
+       + Add Another Lesson
+      </label>
+      <input class="form-control" id="subject1" name="subject1" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="email">
+       Invite to Contribute
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="email" name="email" placeholder="Email" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label ">
+       Private lesson?
+      </label>
+      <div class=" ">
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="Yes"/>
+         Yes
+        </label>
+       </div>
+       <div class="checkbox">
+        <label class="checkbox">
+         <input name="checkbox" type="checkbox" value="No"/>
+         No
+        </label>
+       </div>
+      </div>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-success " name="submit" type="submit">
+        Submit
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
+</DOCTYPE>

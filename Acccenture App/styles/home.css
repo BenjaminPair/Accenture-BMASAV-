@@ -1,0 +1,40 @@
+.topnav{
+    background-color:#A100FF;
+    padding:5px;
+    overflow:hidden;
+    width:100%;
+    box-shadow: 20px 10px 80px grey;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5% 3%;
+    text-decoration: none;
+    font-size: 90%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #990099;
+    color: white;
+  border-style:solid;
+  }
+  .avatar{
+    width: 100%;
+    height: 100%;
+     border: 2px solid #000; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  .log{
+    float:left;
+    color:#ffa31a;
+    text-align:center;
+    font-size:100%;
+  }

@@ -1,0 +1,24 @@
+h1 {
+    color:white;
+    background-color: #A100FF;
+    text-align: center;
+    padding: 5%;
+    float: top;
+}
+header{
+    background-color: #A100FF
+}
+
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+    font-family: Arial, Helvetica, sans-serif; color: #A100FF;
+}
+.bootstrap-iso form button, .bootstrap-iso form button:hover{
+    color: white !important;
+}
+.asteriskField{
+    color: red;
+}
+
+#box,body{
+    background-color: #F1F9FF;
+}

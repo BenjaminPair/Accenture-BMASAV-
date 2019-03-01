@@ -1,0 +1,40 @@
+body {
+    font-family: nexa rust, grand hotel, ostrich sans;
+  }
+  
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #A100FF;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #F1F9FF;
+    color: black;
+  }
+  
+  .active {
+    background-color: #A100FF;
+    color: green;
+  }

@@ -1,0 +1,26 @@
+h1{
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    padding: 1%;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: #F1F9FF;
+}
+
+.button {
+    background-color: rgb(170, 20, 230);
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 3px 3px;
+    border-radius: 50%;
+    float:right;
+  }

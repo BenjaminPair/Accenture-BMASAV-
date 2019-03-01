@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso18.css" /> 
+<!--Font Awesome (added because you use icons in your prepend/append)-->
+<link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+<link rel="stylesheet"  type="text/css" href="styles/profile.css" >
+    <!-- Burger Margin-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles/burger.css">
+<script src="script/burger.js"></script>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Eventure</a>
+  <div id="myLinks">
+    <a href="home.html">Home</a>
+    <a href="#Search">Search</a>
+    <a href="viewlesson.html">Lessons Learned</a>
+    <a href="viewevent.html">Events</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--End Burger-->
+    </head>
+    <br>
+    <br>
+    <body>
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="name">
+       Change Password
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user">
+        </i>
+       </div>
+       <input class="form-control" id="name" name="name" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="name1">
+       Retype New Password:
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user">
+        </i>
+       </div>
+       <input class="form-control" id="name1" name="name1" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="email">
+       Change Email:
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-envelope-o">
+        </i>
+       </div>
+       <input class="form-control" id="email" name="email" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="tel">
+       Phone #
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-phone">
+        </i>
+       </div>
+       <input class="form-control" id="tel" name="tel" type="text"/>
+      </div>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-success " name="submit" type="submit">
+        OK
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
+</DOCTYPE>
